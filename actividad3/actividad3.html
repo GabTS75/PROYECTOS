@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta author="Olga Moreno">
     <meta description="Ejercicio de formularios HTML">
-    
-    <title>Ejercicio3</title>
-</head>
-<body>
 
+    <title>Actividad3</title>
+</head>
+
+<body>
+    <h1>Formularios 3</h1>
     <form>
 
         <label for="nombreCompleto">Nombre completo:</label>
-        <input type="text" id="nombreCompleto" autofocus name="nombreCompleto" required placeholder="Introduce tu nombre completo"><br><br>
+        <input type="text" id="nombreCompleto" autofocus name="nombreCompleto" required
+            placeholder="Introduce tu nombre completo"><br><br>
 
         <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder="Introduce tu email"><br><br>
+        <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+            placeholder="Introduce tu email"><br><br>
 
         <label for="password">Contraseña</label>
         <input type="password" id="password" name="password" required placeholder="Introduce tu contraseña"><br><br>
@@ -25,7 +29,8 @@
         <input type="password" id="password2" name="password2" required placeholder="Confirma tu contraseña"><br><br>
 
         <label for="teléfono">Teléfono</label>
-        <input type="tel" id="teléfono" name="teléfono" required pattern="[0-9]{9}" placeholder="Introduce tu teléfono"><br><br>
+        <input type="tel" id="teléfono" name="teléfono" required pattern="[0-9]{9}"
+            placeholder="Introduce tu teléfono"><br><br>
 
         <label for="fechaNacimiento">Fecha de nacimiento:</label>
         <input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br><br>
@@ -51,8 +56,8 @@
         <label for="color">Selecciona tu color favorito:</label>
         <input type="color" id="color" name="color" value="#345678"><br><br>
         <label for="satisfaccion">Selecciona tu nivel de satisfacción (0-10)</label>
-         <input type="range" id="satisfaccion" name="satisfaccion" min="0" max="10" step="1" ><br><br>
-        <!--<select name="satisfaccion2" id="satisfaccion2">
+        <input type="range" id="satisfaccion" name="satisfaccion" min="0" max="10" step="1"><br><br>
+        <!-- <select name="satisfaccion2" id="satisfaccion2">
             <option value="" disabled selected>Selecciona tu nivel de satisfacción</option>
             <option value="0">0</option>
             <option value="1">1</option>
@@ -65,8 +70,7 @@
             <option value="8">8</option>
             <option value="9">9</option>
             <option value="10">10</option>
-        </select> -->
-        <br><br>
+        </select><br><br> -->
         <label for="fotoPerfil">Sube tu foto de perfil:</label>
         <input type="file" id="fotoPerfil" name="fotoPerfil" accept="image/*"><br><br>
 
@@ -74,8 +78,10 @@
         <input type="checkbox" id="aceptarTerminos" name="aceptarTerminos" required>
         <br><br>
 
+        <input type="reset" value="Restablecer">
         <input type="submit" value="Enviar">
     </form>
-    
+
 </body>
+
 </html>
