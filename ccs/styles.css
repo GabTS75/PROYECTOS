@@ -1,0 +1,25 @@
+body{
+    color: red;
+background-color: #ffc9c9;
+
+    /* margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    background-color:#f4f4f4; */
+}
+
+h1{
+    color: blue;
+    background-color: #c9d1ff;
+
+    /* text-align: center;
+    color: white; */
+}
+
+p{
+    color: green;
+    background-color: #c9ffc9;
+
+    /* font-size: 16px;
+    line-height: 1.5; */
+}
