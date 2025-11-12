@@ -15,7 +15,7 @@
 
 - Utilizaremos el comando: git add . (enter)
 - Luego añadimos un comentario: git commit -m "comentario de cualquier modificación" (enter)
-- Finalmente ejecutamos: git push origin master (enter) .. (si fallara usar "main" en lugar de "master")
+- Finalmente ejecutamos: git push origin master (enter) y si fallara usar "main" en lugar de "master"
 - Actualizamos GitHub y veremos que todos los cambios se han generado correctamente, es decir, la creación del repositorio y sus comentarios respectivos.
 - Si modificamos en VSCode debemos "guardar" (CTRL + S) y seguidamente repetir el PADRE NUESTRO
 - $ git add .
