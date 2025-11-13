@@ -1,41 +1,57 @@
-body{
-    color: red;
-background-color: #ffc9c9;
-
-    /* margin:0;
-    padding:0;
-    font-family:Arial, sans-serif;
-    background-color:#f4f4f4; */
+*{
+    font-family: Arial, sans-serif;
+    /* margin: 10px;
+    padding: 10px; */
 }
+
 h1{
     color: blue;
     background-color: #c9d1ff;
-
     /* text-align: center;
     color: white; */
-}
-
-.parrafo{
-    color: orange;
-    background-color: #ffe5b4;
-
-    /* font-style: italic;
-    text-decoration: underline; */
 }
 
 #p2{
     color: purple;
     background-color: #e0c9ff;
-
     /* font-weight: bold;
     margin-top: 20px; */
+}
+.parrafo{
+    color: orange;
+    background-color: #ffe5b4;
+    /* font-style: italic;
+    text-decoration: underline; */
 }
 
 p{
     color: green;
     background-color: #c9ffc9;
-
     /* font-size: 16px;
     line-height: 1.5; */
 }
 
+body{
+    color: red;
+background-color: #ffc9c9;
+    /* margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    background-color:#f4f4f4; */
+}
+
+div{
+    background-color: aqua;
+    /* padding: 10px;
+    margin: 10px 0; */
+}
+
+a:hover {
+    color: red;
+    background-color: yellow;
+}
+
+#p2::first-letter {
+    font-size: 200%;
+    color: red;
+}
