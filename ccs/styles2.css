@@ -1,0 +1,29 @@
+:root {
+    --main-color: blue;
+    --secondary-color: red;
+    --accent-color: green;
+    --verdecito: #00FF00;
+}
+
+/*
+Notacion: Los comentarios en CSS se hacen con (comentario)
+
+snake_case: las_palabras_se_separan_con_guion_bajo
+kebab-case: las-palabras-se-separan-con-guion-medio
+camelCase: lasPalabrasSeSeparanConMayuscula
+PascalCase: LasPalabrasSeSeparanConMayuscula (la primera tambien)
+*/
+
+
+div {
+    color : blue;
+
+    p{
+        color: red;
+    }
+
+}
+
+p{
+    color: green;
+}
