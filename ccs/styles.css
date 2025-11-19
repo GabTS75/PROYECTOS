@@ -4,8 +4,19 @@
     padding: 10px; */
 }
 
+:root{
+    --main-color: #3498db;
+    --secondary-color: #2ecc71;
+    --accent-color: #e74c3c;
+    --background-main-color : #ecf0f1;
+    --background-secondary-color : #bdc3c7;
+    --black-standard : #131314;
+    /* --font-size: 16px;
+    --line-height: 1.5; */
+}
+
 h1{
-    color: blue;
+    color: var(--main-color) /*Es una variable*/   /* blue;*/
     background-color: #c9d1ff;
     /* text-align: center;
     color: white; */
