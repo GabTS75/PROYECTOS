@@ -52,23 +52,37 @@ p {
 
 #caja {
     width: 50%;
-    height: 50px;
+    /*sobre el ancho de la pantalla*/
+    height: 50%;
     background-color: tan;
 }
 
 #caja2 {
     width: 50vw;
+    /* ancho de la pantalla*/
     height: 25vh;
-    background-color: lightskyblue;
+    /*background: linear-gradient(45deg, #c9d0e5, #d2f04b, #ff5733, #2e31cc);
+    /*Gradiente lineal: angulo en grados (0deg, 45deg, 90deg, 180deg)*/
+    background: radial-gradient(circle, #c9d0e5, #d2f04b, #ff5733, #2e31cc);
+    /*Gradiente radial: circle (círculo) o ellipse (elipse)*/
+    background: conic-gradient(from 90deg, #c9d0e5, #d2f04b, #ff5733, #2e31cc);
+    /*Gradiente cónico: from (desde) ángulo en grados*/
+    /* background-color: lightskyblue; */
 }
 
 main {
     /*TRUCO PARA MANTENER EL FOOTER ABAJO DE LA PÁGINA */
     min-height: 85vh;
+    /*alto de la página*/
 }
 
 footer {
     background-color: var(--black-standard);
-    color: whitesmoke; /* color: rgb(250,249,249); color: #f0f0f0;*/
+    color: whitesmoke;
+    /*color: rgb(250,249,249); color: #f0f0f0;*/
+    /*
+    color: rgba(255,248,220,0); Es la transparencia
+    Medio opaco es 0.5 aprox, Opaco completamente 1 y Totalmente transparente 0
+    */
     min-height: 5vh;
 }
