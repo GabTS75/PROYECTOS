@@ -1,8 +1,12 @@
 :root {
-    --main-color: blue;
-    --secondary-color: red;
-    --accent-color: green;
-    --verdecito: #00FF00;
+    --main-color: #507fff; /* blue;*/
+    --secondary-color: #2e31cc; /* red;*/
+    --accent-color: #ff5733; /* green;*/
+    --verdecito: #28a745; /* green;*/
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*
@@ -18,18 +22,18 @@ PascalCase: LasPalabrasSeSeparanConMayuscula (la primera tambien)
 */
 
 
-div {
-    color : var(--secondary-color); /* blue;*/
+div{
+    color: var(--secondary-color); /* blue;*/
 
     p{
-        var(--accent-color); /*color: red;*/
+        color: var(--accent-color); /*color: red;*/
     }
 
 }
 
 p{
     color: var(--verdecito)   /* green;*/
-    font-size: 20px;
+    /* font-size: 20px; */
     /*font-size: 1em;*/
 }
 
