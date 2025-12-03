@@ -1,0 +1,61 @@
+body{
+    background: linear-gradient(to bottom, #80deea, #e0f7fa00);/*el 2do es transparencia*/
+    background-repeat: no-repeat; /*para que no se repita el background*/
+    font-family: Arial, sans-serif;
+    /* color: #333;
+    margin: 0;
+    padding: 0; */
+}
+
+.contenedor{
+    text-align: center;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+color: #f9f9f9;
+background-color: rgb(32,32,32);
+margin: 20px;
+font-size: 1em; /*Esto es lo mismo que 16px y por tanto coge el tamaño del navegador*/
+font-weight: bold;
+border-radius: 10px;
+line-height: 200px; /*para centrar verticalmente el texto*/
+display: inline-block; /*para que las cajas se pongan una al lado de la otra*/
+}
+
+.caja1{
+    background-color: #ec2e30;
+}
+
+.caja2{
+    background-color: #54b377;
+}
+
+.caja3{
+    background: linear-gradient(to right, #ff9800, #ff5000)
+}
+
+.caja4{
+    background: radial-gradient(circle, #0202b1, #00ddfa75 70%) /*el 70% indica el espacio que ocupará de la caja*/
+}
+
+.caja5{
+    background: linear-gradient(to right, #00ffd9, #00ddfa, #0062df);
+}
+
+.caja6{
+    background: linear-gradient(135deg, #fb026f, #00ddfa); /* también podemos usar 'to bottom right' */
+}
+
+.caja7{
+    background: radial-gradient(circle, #f9f9f9, #f6b75a, #0ad6f1 90%);
+}
+
+.caja8{
+    background: radial-gradient(ellipse at bottom left, #ec2e30, #ffe100, #0062ff);
+}
+
+.caja9{
+    background: conic-gradient(from 45deg, #6cffa2, #00ffd9, #096c2d09); /*último color con transparencia*/
+}

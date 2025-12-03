@@ -67,6 +67,8 @@ p {
     /*Gradiente radial: circle (círculo) o ellipse (elipse)*/
     background: conic-gradient(from 90deg, #c9d0e5, #d2f04b, #ff5733, #2e31cc);
     /*Gradiente cónico: from (desde) ángulo en grados*/
+    /*Las tranparencias es agregando un par más de código hexadecimal al color, ejemplo: #ff5733a0 */
+
     /* background-color: lightskyblue; */
 }
 
