@@ -1,11 +1,16 @@
 :root {
-    --main-color: #507fff; /* blue;*/
-    --secondary-color: #2e31cc; /* red;*/
-    --accent-color: #ff5733; /* green;*/
-    --verdecito: #28a745; /* green;*/
+    --main-color: #507fff;
+    /* blue;*/
+    --secondary-color: #2e31cc;
+    /* red;*/
+    --accent-color: #ff5733;
+    /* green;*/
+    --verdecito: #28a745;
+    /* green;*/
+    --black-standard: #131314;
 }
 
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -22,18 +27,48 @@ PascalCase: LasPalabrasSeSeparanConMayuscula (la primera tambien)
 */
 
 
-div{
-    color: var(--secondary-color); /* blue;*/
+div {
+    width: 200px;
+    height: 100px;
+    background-color: cornsilk;
+    /* color: #fff8dc; */
 
-    p{
-        color: var(--accent-color); /*color: red;*/
+    color: var(--secondary-color);
+    /* blue;*/
+
+    p {
+        color: var(--accent-color);
+        /*color: red;*/
     }
 
 }
 
-p{
-    color: var(--verdecito)   /* green;*/
-    /* font-size: 20px; */
-    /*font-size: 1em;*/
+p {
+    color: var(--verdecito);
+    /* green;*/
+    font-size: 14px;
+    /*font-size: 0.5em;font-size: 1.5em;font-size: 1em; font-size: 16px; */
 }
 
+#caja {
+    width: 50%;
+    height: 50px;
+    background-color: tan;
+}
+
+#caja2 {
+    width: 50vw;
+    height: 25vh;
+    background-color: lightskyblue;
+}
+
+main {
+    /*TRUCO PARA MANTENER EL FOOTER ABAJO DE LA PÁGINA */
+    min-height: 85vh;
+}
+
+footer {
+    background-color: var(--black-standard);
+    color: whitesmoke; /* color: rgb(250,249,249); color: #f0f0f0;*/
+    min-height: 5vh;
+}
