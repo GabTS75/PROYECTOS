@@ -1,28 +1,122 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
 
+    /* background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFja2dyb3VuZCUyMGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60'); */
+    /*Normalmente NO SE USA UNA IMAGEN para el fondo, se usa COLOR SOLIDO */
+
+    /* background-attachment: local; se desplaza con el contenido del elemento*/
+    background-attachment: fixed;
+    /* para que la imagen no se mueva al hacer scroll */
+    /* background-attachment: scroll; para que la imagen se mueva al hacer scroll (comportamiento por defecto) */
+
+    background-size: cover;
+    /* para que la imagen cubra todo el fondo */
+
+    background-position: center;
+    /* centra la imagen */
+
+    background-repeat: no-repeat;
+    /* para que no se repita la imagen */
+    /* repeat, se repetirá por todo el contenido*/
+    /* repeat-x, repite horizontalmente*/
+    /* repeat-y, repite verticalmente*/
 }
 
 header {
     background-color: blue;
     color: aliceblue;
     padding: 1em;
+    /* espacio interno */
     text-align: center;
 
     h1 {
         background-color: blueviolet;
-        padding: 0.5em;
+        padding: 2px 4px 8px 12px;
+        /* padding: 0.5em; */
+        /* espacio interno */
         text-align: center;
+
+        border-radius: 10px;
+        /* redondea los bordes */
+
+        border-width: 2px 2px 4px 8px;
+        /* Top Right Bottom Left */
+
+        border-style: solid;
+        /* puede ser: solid, dashed, dotted, double, groove, ridge, inset, outset, none, hidden */
+
+        border-color: black;
+        margin: 2px 4px 6px 8px;
+        /* espacio externo */
+
     }
 
+    /* 
     ul{
         li{
-            list-style: none; /* esto quita los 'puntitos' a una lista*/
-            display: inline; /*que se vea en la misma línea*/
-            margin-right: 20px; /*separador*/
+            list-style: none; /* esto quita los 'puntitos' a una lista
+            display: inline; /*que se vea en la misma línea
+            margin-right: 20px; /*separador entre los elementos de la lista
         
         }
     }
+*/
+
+    p {
+        color: darkgreen;
+        background-color: aquamarine;
+        border: 4px dashed red;
+        /* estilo de borde */
+        border-width: 2px 4px;
+        /* Top Bottom */
+        border-radius: 2px;
+        /* bordes redondeados */
+        padding: 5px;
+        /* espacio interno */
+        outline: 2px solid orange;
+        /* crea un contorno alrededor del elemento */
+        outline-offset: 5px;
+        /* separa el outline del borde */
+
+    }
+
+}
+
+main {
+    color: aliceblue;
+    min-height: 100vh;
+    /* altura mínima */
+
+    background-image: url(wallwin.png);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    /* para que la imagen cubra todo el fondo */
+    background-position: center;
+
+    background-origin: content-box;
+    /* la imagen de fondo empieza desde el área de contenido */
+    /* background-origin: padding-box; la imagen de fondo empieza desde el área de contenido + padding */
+    /* background-origin: border-box; la imagen de fondo empieza desde el área de contenido + padding + border */
+
+    border: 50px solid red;
+    padding: 20px;
+
+    a {
+        text-decoration: none;
+        /* quita el subrayado al enlace */
+    }
+
+}
+
+footer {
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
