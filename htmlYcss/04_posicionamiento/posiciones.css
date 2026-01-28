@@ -2,8 +2,16 @@
   height: 700px;
   width: 600px;
   background-color: lightpink;
-
-  margin: auto;
+  /*
+    overflow: auto; - agrega barras de desplazamiento si el contenido desborda el contenedor
+    display: inline-block; - el contenedor se comporta como un elemento en línea pero puede tener dimensiones
+    display: flex; - el contenedor utiliza el modelo de caja flexible para organizar sus elementos hijos
+    display: grid; - el contenedor utiliza el modelo de cuadrícula para organizar sus elementos hijos
+    justify-content: center; - centra los elementos hijos horizontalmente dentro del contenedor (solo con display: flex o grid)
+    flex-wrap: wrap; - permite que los elementos hijos se envuelvan a la siguiente línea si no caben en una sola línea (solo con display: flex)
+    flex-wrap: nowrap; - evita que los elementos hijos se envuelvan a la siguiente línea (solo con display: flex)
+  */
+  margin: auto; /* centra el contenedor horizontalmente en su contenedor padre */
 }
 
 #caja1 {
@@ -15,27 +23,47 @@
   background-color: rgb(23, 181, 63);
   width: 100px;
   height: 100px;
-  float: right;
+  float: right; /* - la caja se alinea a la derecha del contenedor y el texto fluye a su alrededor */
 }
 
 #caja3 {
   background-color: rgb(29, 31, 151);
   width: 100px;
   height: 100px;
+  /*
+    position: fixed; - la caja se posiciona en relación a la ventana del navegador y permanece fija al hacer scroll
+    top: 50px; - mueve la caja 50px hacia abajo desde el borde superior de la ventana
+    right: 50px; - mueve la caja 50px hacia la izquierda desde el borde derecho de la ventana
+  */
+  /*
+    position: relative; - la caja se posiciona en relación a su posición original en el flujo del documento
+    top: 50px; - mueve la caja 50px hacia abajo desde su posición original
+    right: 20px; - mueve la caja 20px hacia la izquierda desde su posición original
+  */
+  /*
+    position: absolute; - se pega a la derecha
+    top: 50px;
+    right: 20px;
+  */
+
   float: left;
 }
 #caja4 {
   background-color: rgb(255, 238, 5);
   width: 100px;
   height: 100px;
-  margin: auto;
-  z-index: 30;
+  margin: auto; /* centra la caja horizontalmente en su contenedor padre */
+  z-index: 30; /* - controla el orden de apilamiento de las cajas. Las cajas con un valor de z-index más alto se muestran encima de las cajas con un valor más bajo */
   position: relative;
 }
 #caja5 {
   background-color: rgb(247, 8, 235);
   width: 100px;
   height: 100px;
+  /* 
+    position: absolute; - la caja se posiciona en relación al contenedor más cercano que tenga posición relativa, absoluta o fija. Si no hay ninguno, se posiciona en relación al body.
+    left:150px; - mueve la caja 150px a la derecha desde el borde izquierdo del contenedor
+  */
   position: relative;
   top: -20px;
   margin: auto;
@@ -45,5 +73,5 @@
   background-color: rgb(255, 128, 0);
   width: 100px;
   height: 100px;
-  float: both;
+  float: both; /* - la caja se alinea a ambos lados del contenedor y el texto fluye a su alrededor */
 }
