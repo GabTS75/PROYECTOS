@@ -26,11 +26,10 @@
             padding: 40px 20px;
             font-size: 2rem;
             font-weight: bold;
+            background: linear-gradient(45deg, #a43e41, #d49685, #342e7c, #50adaa);
+            
         }
 
-        /* Colores específicos para imitar la imagen */
-        .text-pink { color: #d65a5a; }
-        .text-blue { color: #3b60c4; }
 
         /* =========================================
            CONTENEDOR PRINCIPAL (LA TARJETA)
