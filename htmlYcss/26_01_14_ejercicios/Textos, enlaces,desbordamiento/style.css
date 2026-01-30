@@ -1,0 +1,82 @@
+/* Estilos básicos para la tipografía general */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    /* Un poco de espacio alrededor para ver bien el ejemplo */
+}
+
+/* CLASE PRINCIPAL DE LA CAJA 
+*/
+.caja-desbordada {
+    /* 1. Definimos el borde negro visible en la imagen */
+    border: 2px solid black;
+
+    /* 2. ANCHO FIJO: Limitamos el ancho. 
+       Al tener un ancho fijo, si el contenido horizontal es mayor, 
+       podría desbordarse si se le impide hacer salto de línea. */
+    width: 300px;
+
+    /* 3. ALTO FIJO: Limitamos la altura.
+       Esto es clave. Como la lista de elementos ocupa más espacio vertical
+       del que definimos aquí, el último elemento ("Ocupación") se saldrá del borde. */
+    height: 160px;
+
+    /* 4. OVERFLOW (IMPORTANTE):
+       La propiedad 'overflow' controla qué pasa cuando el contenido sobra.
+       Si usas el valor 'visible', esto significa: "No cortes el contenido,
+       deja que se vea aunque se salga de la caja".Por eso el texto y la lista
+       se ven fuera del borde negro. Pero si usas el valor 'auto', mostrará
+       las barras de desplazamiento horizontal y vertical de ser necesario.
+       Syntax: [ visible | hidden | clip | scroll | auto ] */
+    overflow: auto;
+
+    /* Padding interno para que el texto no pegue con el borde izquierdo */
+    padding: 10px;
+
+    /* Asegura que el padding no sume al tamaño total (buenas prácticas) */
+    box-sizing: border-box;
+}
+
+/* Estilo para el título CSS */
+h1 {
+    font-style: italic;
+    /* Letra cursiva como en la imagen */
+    font-weight: 900;
+    /* Letra muy gruesa */
+    margin-top: 0;
+    /* Quitamos margen superior para que pegue arriba */
+    font-size: 2rem;
+}
+
+/* CLASE PARA EL TEXTO LARGO HORIZONTAL
+*/
+.texto-largo {
+    /* 1. WHITE-SPACE: NOWRAP
+       Esta es la propiedad clave para el desbordamiento horizontal.
+       Le dice al navegador: "Nunca hagas un salto de línea automático, 
+       escribe todo en una sola línea infinita hasta que yo use <br>". */
+    white-space: nowrap;
+
+    /* Ajustes visuales para imitar la imagen */
+    margin-bottom: 15px;
+    font-size: 1rem;
+
+    text-decoration: underline;
+    /* Subrayado general del texto */
+    text-transform: capitalize;
+    /* Primera letra de cada palabra en mayúscula */
+}
+
+/* Estilo para el enlace dentro del texto 
+.texto-largo a {
+    color: blue;
+    text-decoration: underline;
+}*/
+
+/* Ajustes de la lista */
+ul {
+    padding-left: 20px;
+    /* Sangría de las viñetas */
+    line-height: 1.5;
+    /* Espaciado entre líneas de la lista */
+}
