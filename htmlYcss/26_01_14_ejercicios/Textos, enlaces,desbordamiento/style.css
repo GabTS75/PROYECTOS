@@ -67,11 +67,11 @@ h1 {
     /* Primera letra de cada palabra en mayúscula */
 }
 
-/* Estilo para el enlace dentro del texto 
+/* Estilo para que el enlace se mantenga de color azul dentro del texto */
 .texto-largo a {
     color: blue;
     text-decoration: underline;
-}*/
+}
 
 /* Ajustes de la lista */
 ul {
