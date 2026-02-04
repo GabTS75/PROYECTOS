@@ -3,7 +3,7 @@
 }
 
 body{
-
+  background-color: var(--negro);
 }
 
 :root {
