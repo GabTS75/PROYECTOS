@@ -1,102 +1,90 @@
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: azure;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: azure;
 }
 
 #container {
-    min-height: 85vh;
-    padding: 20px;
+  min-height: 85vh;
+  padding: 20px;
+
 }
 
 #WebsiteTitle {
-    text-align: center;
-    background-color: lightblue;
-    padding: 5px;
-    margin: 10px 0px 0 0;
+  padding: 5px;
+  margin: 10px 0px 0 0;
+  background-color: rgb(205, 249, 249);
+  text-align: center;
 }
 
 #navigationBar {
-    background-color: lightblue;
-    padding: 10px;
-    margin: 0px;
-    text-align: center;
-    font-size: large;
+  background-color: rgb(205, 249, 249);
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  font-size: large;
+  color: black;
 
-    a {
-        text-decoration: none;
-        color: darkslategray;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-
+  a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 }
 
 section {
-    float: left;
+  float: left;
+  width: 400px;
 }
 
 #lateralBar {
-    float: right;
-    background-color: whitesmoke;
-    margin: 20px;
+  width: 50%;
+  float: left;
+  background-color: rgb(113, 190, 190);
+  margin: 20px;
+  text-align: center;
 
-    figcaption {
-        text-align: center;
-        font-weight: bold;
-        font-style: italic;
-    }
+  figcaption {
 
-    img {
-        width: 300px;
-        height: auto;
-    }
+    font-style: italic;
+  }
+
+  img {
+    width: 50%;
+    height: auto;
+  }
 }
 
 #finalBar {
-    clear: both;
+  clear: both;
 }
 
 footer {
-    text-align: center;
-    background-color: lightblue;
-    color: darkslategray;
-    padding: 10px;
-    margin: 0px;
+  text-align: center;
+  background-color: rgb(62, 147, 147);
+  color: whitesmoke;
+  margin: 0;
+  padding: 10px;
 }
 
 @media screen and (max-width: 768px) {
 
-    body {
-        background-color: lightyellow;
-    }
+  body {
+    background-color: rgb(211, 250, 227);
+  }
 
-    img {
-        width: 70%
-    }
+  img {
+    width: 70%;
+  }
 
-    article {
-        font-size: large;
-    }
+  article {
+    font-size: large;
+  }
 
 }
-
-
-/* 
-@media only screen and (max-width: 800px) {
-    #lateralBar {
-        float: none;
-        margin: 0 auto;
-        text-align: center;
-
-        img {
-            width: 80%;
-            height: auto;
-        }
-    }
-} */
