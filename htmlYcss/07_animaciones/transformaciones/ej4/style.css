@@ -10,5 +10,5 @@
     top: 100px;  
 }  
 .deformacion {  
-    transform: skew(-15deg,5deg);  
+    transform: skew(-15deg,5deg); /* Deformación de la figura */
 }  

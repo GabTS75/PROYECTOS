@@ -9,5 +9,7 @@
     top: 40px;  
 }  
 .transfo-multi {  
-    transform: scale(.7) rotate(30deg);  
-}  
+    transform: scale(.7) rotate(30deg);
+    /* Escala el elemento al 70% de su tamaño original y lo rota 30 grados en sentido horario. * /
+    /* Puedes ajustar los valores de scale y rotate según tus necesidades. */
+}

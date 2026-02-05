@@ -3,27 +3,27 @@
     left: 20px;  
     top: 20px;  
  } 
-
+ 
  #desplazamiento {  
     position: absolute;  
     left: 200px;  
     top: 20px;  
-    transition-property: left 30px;  
-    transition-duration: 1s;  
-    transition-timing-function: ease-in;  
-    transition-delay: 2s;  
- } 
+    transition-property: left 30px; /* Propiedad a la que se le aplicará la transición */
+    transition-duration: 1s; /* Duración de la transición */
+    transition-timing-function: ease-in; /* Función de tiempo para la transición */
+    transition-delay: 2s; /* Tiempo que se retrasará la transición después de que se active el evento */
+ }  
 
- /** También podemos usar transition con todos sus atributos:
-
+ /* También podemos usar transition con todos sus atributos: 
  #desplazamiento {  
    position: absolute;  
    left: 20px;  
    top: 20px;  
    transition: left 2s ease-in 2s;  
-} 
+}
 
 */
+
 
 #desplazamiento:hover {  
     left: 250px;  

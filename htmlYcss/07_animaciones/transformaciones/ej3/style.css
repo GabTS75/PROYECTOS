@@ -4,13 +4,13 @@
   top: 40px;
 }
 #transformacion {
-  position: absolute;
-  left: 50px;
-  top: 40px;
+  position: absolute; /* Para posicionar el elemento en la página */
+  left: 50px; /* Ajusta la posición horizontal según sea necesario */
+  top: 40px; /* Ajusta la posición vertical según sea necesario */
 }
 .escalado-p {
-  transform: scale(0.45);
+  transform: scale(0.45); /* Escala el elemento al 45% de su tamaño original */
 }
 .escalado-np {  
-    transform: scale(0.5, 0.25);  
+    transform: scale(0.5, 0.25); /* Escala el elemento al 50% de su ancho y al 25% de su altura */
  } 

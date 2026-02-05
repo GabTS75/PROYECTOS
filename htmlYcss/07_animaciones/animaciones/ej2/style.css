@@ -1,19 +1,19 @@
 img {
   animation-duration: 5s;
-  animation-name: luna;
-  animation-iteration-count: infinite; /* si queremos que se repita */
-  animation-direction: alternate; /* Para que no salte de principio a fin,
-   y transicione de forma natural se alterna el movimiento */
-   width: 5%;
+  animation-name: luna; /* nombre de la animación, que se corresponde con el nombre del @keyframes */
+  animation-iteration-count: infinite; /* si queremos que se repita infinitamente */
+  animation-direction: alternate;
+  /* Para que no salte de principio a fin, y transicione de forma natural se alterna el movimiento */
+   width: 5%; /* tamaño inicial de la imagen, que se corresponde con el fotograma del 0% del @keyframes */
 }
 
 @keyframes luna {
-  from {
+  from { /* fotograma inicial, se corresponde con el 0% del @keyframes */
     margin-left: 100%;
     width: 5%;
   }
 
-  to {
+  to { /* fotograma final, se corresponde con el 100% del @keyframes */
     margin-left: 0%;
     width: 5%;
   }

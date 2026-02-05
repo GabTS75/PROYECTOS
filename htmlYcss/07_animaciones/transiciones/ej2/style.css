@@ -1,10 +1,11 @@
-#desplazamiento {  
-   position: absolute;  
-   left: 20px;  
-   top: 20px;  
-   transition: left 2s ease-in-out, top 2s linear;  
-}  
-#desplazamiento:hover {  
-   left: 220px;  
-   top:  220px;  
-}  
+#desplazamiento {
+   position: absolute;
+   left: 20px;
+   top: 20px;
+   transition: left 2s ease-in-out, top 2s linear; /* Propiedad a animar, duración, función de tiempo */
+}
+
+#desplazamiento:hover {
+   left: 220px;
+   top:  220px;
+}

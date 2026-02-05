@@ -1,21 +1,21 @@
-#panel {  
-    background-color: lightseagreen;  
-    position: relative;  
-    width: 100px;  
-    height: 100px;  
-    animation-name: panel-sea;  
-    animation-duration: 5s;  
-    animation-iteration-count: infinite;  
- } 
+#panel {
+    background-color: lightseagreen;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    animation-name: panel-sea; /* Nombre de la animación */
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
 
 @keyframes panel-sea {
-  0% {
+  0% { /* Desde el inicio de la animación */
     left: 10px;
   }
-  50% {
+  50% { /* En la mitad de la animación */
     left: 400px;
   }
-  100% {
+  100% { /* Al finalizar la animación */
     left: 10px;
   }
 }

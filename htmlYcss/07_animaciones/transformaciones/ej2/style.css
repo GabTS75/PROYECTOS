@@ -18,5 +18,5 @@
   }
   
 .desplazamiento-derecha-abajo {  
-    transform: translate(300px, 60px);  
+    transform: translate(300px, 60px); /* Mueve el elemento 300px a la derecha y 60px hacia abajo */
  } 
